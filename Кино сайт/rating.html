@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="description" content="КиноПоисковик - Портал поиска кино">
+    <meta name="keywords" content="фильмы, фильмы онлайн, HD">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+
+    <div class="main">
+        <div class="header">
+
+
+            <div class="logo">
+                <div class="logo_text">
+                    <h1><a href="/"> КиноПоисковик</a></h1>
+                    <h2> Кино - наша страсть</h2>
+                </div>
+            </div>
+            <div class="menubar">
+                <nav>
+                    <ul class="menu">
+                        <li> <a href="index.html">Главная</a></li>
+                        <li><a href="films.html">Фильмы</a></li>
+                        <li><a href="#">Сериалы</a></li>
+                        <li class="selected"><a href="#">Рейтинг фильмов</a></li>
+                        <li><a href="contact.html">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+
+        <div class="site_content">
+
+            <div class="sidebar_container">
+
+
+                <div class="sidebar">
+
+                    <h2>Поиск</h2>
+                    <form method="POST" action="#" id="search_form">
+                        <input type="search" name="search_field" placeholder="Ваш запрос">
+                        <input type="submit" class="btn" value="найти">
+                    </form>
+
+                </div>
+                <div class="sidebar">
+                    <h2>Вход</h2>
+                    <form method="POST" action="#" id="login">
+
+                        <input type="text" name="login_field" placeholder="Логин" />
+                        <input type="password" name="password_field" placeholder="Пароль" />
+                        <input type="submit" class="btn" value="вход" />
+                        <div class="lables_passreg_text">
+                            <span><a href="#">Забыли пароль?</a></span> | <span><a href="#">Регистрация</a></span>
+                        </div>
+                    </form>
+                </div>
+                <div class="sidebar">
+                    <h2>Новости</h2>
+                    <span>20.06.2021</span>
+                    <p>В Сети появились первые отзывы о четвертой части франшизы «Матрица» с подзаголовком «Воскрешение»
+                    </p>
+                    <a href="#">Читать</a>
+                </div>
+                <div class="sidebar">
+                    <h2>Рейтинг фильмов</h2>
+                    <ul>
+                        <li><a href="show.html">Интерстеллар</a><span class="rating_sidebar">6.7</span></li>
+                        <li><a href="#">Матрица</a><span class="rating_sidebar">6.4</span></li>
+                        <li><a href="#">Безумный Макс</a><span class="rating_sidebar">5</span></li>
+                        <li><a href="show1.html">Облачный атлас</a><span class="rating_sidebar">4.9</span></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="content">
+
+                <table class="rating">
+                    <tr>
+                        <th></th>
+                        <th>Фильмы</th>
+                        <th class="center">Год</th>
+                        <th class="center">Рейтинг</th>
+                    </tr>
+                    <tr>
+                        <td class="center"><img src="assets/imagine/inter.png"></td>
+                        <td>1. <a href="show.html">Интерстеллар</a></td>
+                        <td class="center">2014</td>
+                        <td class="rating_appraisal ">6.7</td>
+                    </tr>
+                    <tr>
+                        <td class="center"><img src="assets/imagine/matrix.png"></td>
+                        <td>2. <a href="#">Матрица</a></td>
+                        <td class="center">1999</td>
+                        <td class="rating_appraisal ">6.4</td>
+                    </tr>
+                    <tr>
+                        <td class="center"><img src="assets/imagine/max.png"></td>
+                        <td>3. <a href="#">Безумный Макс</a></td>
+                        <td class="center">2015</td>
+                        <td class="rating_appraisal ">5</td>
+                    </tr>
+                    <tr>
+                        <td class="center"><img src="assets/imagine/cloud.png"></td>
+                        <td>4. <a href="show1.html">Облачный атлас</a></td>
+                        <td class="center">2013</td>
+                        <td class="rating_appraisal ">4.9</td>
+                    </tr>
+                </table>
+
+            </div>
+
+
+        </div>
+
+        <div class="footer">
+            <p>
+                <a href="index.html">Главная</a> |
+                <a href="films.html">Фильмы</a> |
+                <a href="#">Сериалы</a> |
+                <a href="rating.html">Рейтинг фильмов</a> |
+                <a href="contact.html">Контакты</a>
+            </p>
+            <p>wh-db.com 2021</p>
+        </div>
+    </div>
+</body>
+
+</html>
