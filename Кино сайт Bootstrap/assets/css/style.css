@@ -1,0 +1,180 @@
+.header a {
+    color: rgb(255, 166, 0);
+    text-decoration: none;
+}
+.header a:hover {
+    color:#df8405;
+text-decoration: none;
+}
+.header h1 {
+    letter-spacing: 15px;
+    font-size: 300%;
+}
+.header p {
+    color: white !important;
+    font-size: 90%;
+    letter-spacing: 3px;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: #346270;
+}
+
+.nav-pills>li>a {
+	color: #fff;
+}
+
+.nav-pills>li>a:hover {
+	background-color: #346270;
+}
+
+.navbar-inverse {
+    padding: 1%;
+    border-radius: 0px;
+}
+
+
+@media (max-width: 767px) {
+	.nav-pills>li {
+		float: none;
+	}
+    .header h1 {
+        letter-spacing: 7px;
+        font-size: 200%;
+    }
+	.nav-pills {
+text-align: center;
+	}
+
+    .header {
+        text-align: center;
+    }
+}
+    .clear {
+        clear:both;
+        height: 63px;
+    }
+    .wrapper {
+        min-height: 100%;
+    }
+
+    html, body {
+    height: 100%;
+    }
+
+.films_block {
+    text-align: center;
+}
+.films_block img {
+border: solid 5px #f2f2f2 ;
+border-radius: 5px;
+margin-bottom: 5%;
+width: 100%;
+}
+
+.film_label {
+padding: 2%;
+margin-bottom: 4%;
+}
+
+.margin-8 {
+   margin-top: 8%;
+}
+
+.margin-6 {
+    margin-top: 6%;
+ }
+ .margin-4 {
+    margin-top: 4%;
+ }
+.font_p p {
+font-size: medium;
+letter-spacing: normal;
+}
+
+.font_p a {
+text-decoration: none;
+}
+
+.font_p a:hover h3{
+    color: rgb(179, 119, 7);
+}
+
+.panel {
+    border: none;
+}
+.panel-body {
+    background-color: #f9f9f9;
+}
+.panel-info>.panel-heading {
+background-color: #f0ad4e;
+color: white;
+border-color: transparent;
+
+}
+.sidebar-header {
+    font-size: 120%;
+    letter-spacing: 2px;
+}
+
+.form-control {
+    border-radius: 10px ;
+}
+
+
+.input-lg {
+    font-size: 14px;
+    
+}
+
+.list-group-item-warning {
+    color: #8a6d3b;
+    background-color: #f9f9f9;
+}
+.list-group a:hover {
+    color: chocolate;
+}
+.list-group a {
+    text-decoration: none;
+}
+.badge {
+    background-color: black;
+}
+
+.info_block {
+    font-size: 120%;
+}
+
+.info_block .badge {
+    font-size: 80%;
+    margin-left: 0.5%;
+}
+
+.info_block span {
+margin-right: 1%;
+}
+
+.form-group textarea {
+    height: 200px;
+}
+
+.table tbody>tr>td.vert-align {
+    vertical-align: middle;
+}
+
+
+footer {
+    color: #666;
+    background-color: #222;
+    padding: 17px 0 18px 0;
+    border-top: 1px solid #000;
+}
+
+footer a {
+    color: rgb(216, 209, 209);
+    font-size: medium;
+}
+footer a:hover {
+    color: rgb(255, 255, 255);
+}
