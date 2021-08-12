@@ -1,0 +1,45 @@
+//$('#test').text(one);      -----  jQuery вывод на экран
+//$('#test').fadeOut("slow");    ------- jQuery  исчезновение обьекта
+
+//$('.myclass').text(one);  ------- jQuery вывод на экран всего класса
+
+
+//document.getElementsByClassName("myclass")[0].innerHTML = one;   ---- вывод на экран js
+//console.log(document.getElementsByClassName("myclass")); ------ вывод в консоль всего класса
+
+//document.getElementsByClassName("myclass")[0].style.color = "red";     -----смена цвета щрифта js
+//$('.myclass').css('color', 'green');    ----------    jQuery  смена цвета шрифта
+//$('.myclass').css('background-color', 'blue');   --------  jQuery смена цвета бекграунда
+
+
+РАБОТА С МАССИВАМИ
+
+
+array = ["...", "......"]   ------ создание массивов  
+array.reverse();     -------    реверс всего массива
+array.concat(12);    -------    обьединение данных с масивами или др. значениями
+array.slice(1,-1)   ------ обрезание части строки , части массива, не изменяя сам массив.
+array.splice (1, 2, "3", "4") ----- принимает 3 аргумента 1.Индекс массива 2.Количество массивов 
+3. на что заменяют значения и заменяет исходный маасив
+
+array.push("5"); ------- вставляет значение в конец массива
+array.unshift("5"); --------   вставляет значение в начало массива
+
+array.pop();   ------- Удаляет последний элемент и возвращает удалённый элемент 
+array.shift();   -------- Удаляет первый элемент и возвращает удалённый элемент 
+
+array.join("-");  ------ JS делаем свой разделитель
+
+array.sort(); ------ Сортирует массив в алфавитном порядке
+
+
+ЦИКЛЫ
+
+цикл простейший for(i = 0;i<array.length;i++){
+console.log(array[i]);}  ------    выводит массив последовательно
+
+// только с callback функцией
+array.forEach( function( currentValue, index, arr ) ); 
+
+// с использованием объекта, на который может ссылаться ключевое слово this
+array.forEach( function( currentValue, index, arr ), thisValue );
